@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>📧Contact Me</title>
+  <style>
+    table,
+    th,
+    td {
+      padding: 10px;
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Mode of Contact</h1>
+  <table cellspacing=20>
+    <th align="left">Contact Mode</th>
+    <th align="left">Information</th>
+    <tr>
+      <td>e-mail</td>
+      <td><a href="https://www.gmail.com/">rahulsingh18@gmail.com</a></td>
+    </tr>
+    <tr>
+      <td>Twitter</td>
+      <td><a href="https://www.twitter.com/rahulsingh18">@rahulsingh18</a></td>
+    </tr>
+  </table>
+  <hr>
+  <h2>Request Information</h2>
+  <p><em><strong>Want to send a message to me?</strong></em></p>
+  <form action= "mailto:rahulsingh18@gmail.com" method="post" enctype ="text/plain">
+    <p>What is your gender?</p>
+    <input type="radio" id="gender" name="Gender" value="Male">
+    <label for="Male"> Male</label><br>
+    <input type="radio" id="gender" name="Gender" value="Female">
+    <label for="Female"> Female</label><br>
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="First Name"><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" lastname="Last name"> <br>
+    <label for="email">Enter your E-mail:</label><br>
+    <input type="email" id="email" name="E-Mail"><br>
+    <label for="mssg">Type your Message:</label><br>
+    <textarea name="Message" id="text" cols="15" rows="5"></textarea><br>
+    <label for="datetime">Select today's Date</label><br>
+    <input type="date" id="datetime" name="Date"><br><br>
+    <input type="submit"></input><br>
+  </form>
+
+</body>
+
+</html>
